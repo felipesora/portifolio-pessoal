@@ -1,0 +1,87 @@
+.cabecalho {
+    position: relative;
+    background-image: url(imagens/fundo-1200px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: var(--fonte-principal);
+    color: #ffffff;
+    overflow: hidden; /* Garante que o overlay não vaze */
+}
+
+.cabecalho::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bebebe; /* Cor do overlay */
+    opacity: 0.15; /* Transparência da cor sobreposta */
+    backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
+    z-index: 1; /* Posiciona abaixo do conteúdo */
+}
+
+.cabecalho div {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique acima do overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 0 300px 0;
+}
+
+.cabecalho h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.cabecalho h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.cabecalho h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cabecalho button {
+    position: relative;
+    background-color: transparent;
+    border: solid 3px #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    overflow: hidden; /* Impede que o pseudo-elemento ultrapasse o botão */
+    transition: color 0.4s ease; /* Suaviza a mudança da cor do texto */
+}
+
+.cabecalho button::before {
+    content: '';
+    position: absolute;
+    top: 100%; /* Inicia fora da área visível (abaixo do botão) */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Cor branca para o preenchimento */
+    z-index: -1; /* Fica atrás do texto */
+    transition: top 0.5s cubic-bezier(0.25, 1, 0.5, 1); /* Transição mais fluida */
+}
+
+.cabecalho button:hover::before {
+    top: 0; /* Move o preenchimento para cobrir o botão */
+}
+
+.cabecalho button:hover {
+    color: #000000; /* Muda a cor do texto para preto ao passar o mouse */
+}
+

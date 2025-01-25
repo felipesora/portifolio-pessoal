@@ -1,13 +1,14 @@
 import './App.css'
+import Cabecalho from './componentes/Cabecalho'
 
 function App() {
 
   return (
-    <div>
-      <h1>Olá Mundo</h1>
-    </div>
+    <main>
+        <Cabecalho />
+    </main>
   )
-  
+
 }
 
 export default App
