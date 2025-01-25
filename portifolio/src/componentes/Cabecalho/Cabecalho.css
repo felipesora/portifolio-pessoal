@@ -1,15 +1,37 @@
 .cabecalho {
     position: relative;
-    background-image: url(../../../public/imagens/fundo-750px.jpg);
+    background-image: url(../../../public/imagens/fundo-blur-1200px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    font-family: var(--fonte-principal);
-    color: #ffffff;
+    background-attachment: fixed;
     overflow: hidden; /* Garante que o overlay não vaze */
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.cabecalho div {
+.cabecalho_botoes{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 0 30px;
+}
+
+.cabecalho_botoes button {
+    background-color: transparent;
+    border: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Suaviza a transição de aumento */
+}
+
+.cabecalho_botoes button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 1.1x */
+}
+
+.cabecalho .boas_vindas {
+    font-family: var(--fonte-principal);
+    color: #ffffff;
     position: relative;
     z-index: 2; /* Garante que o conteúdo fique acima do overlay */
     display: flex;
@@ -34,7 +56,7 @@
     font-weight: bold;
 }
 
-.cabecalho button {
+.cabecalho .botao_sobre_mim {
     position: relative;
     background-color: transparent;
     border: solid 3px #ffffff;
@@ -49,9 +71,10 @@
     cursor: pointer;
     overflow: hidden; /* Garante que o pseudo-elemento não ultrapasse o botão */
     transition: color 0.3s ease; /* Suaviza apenas a mudança de cor do texto */
+    
 }
 
-.cabecalho button::before {
+.cabecalho .botao_sobre_mim::before {
     content: '';
     position: absolute;
     transform: translateY(100%); /* Inicialmente fora da visão */
@@ -63,12 +86,20 @@
     transition: transform 0.3s ease; /* Transição mais suave e leve */
 }
 
-.cabecalho button:hover::before {
+.cabecalho .botao_sobre_mim:hover::before {
     transform: translateY(0); /* Move o preenchimento para cobrir o botão */
 }
 
-.cabecalho button:hover {
+.cabecalho .botao_sobre_mim:hover {
     color: #000000; /* Muda a cor do texto para preto ao passar o mouse */
+    box-shadow: 8px 8px 16px rgba(255, 255, 255, 0.08);
 }
 
+.cabecalho .botao_sobre_mim img {
+    transition: filter 0.3s ease; /* Transição suave para a alteração da cor */
+}
+
+.cabecalho .botao_sobre_mim:hover img {
+    content: url('../../../public/imagens/seta-baixo-preta-32px.png'); /* Altera a imagem da seta */
+}
 
