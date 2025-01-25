@@ -1,4 +1,4 @@
-.cabecalho {
+#cabecalho {
     position: relative;
     background-image: url(../../../public/imagens/fundo-blur-1200px.jpg);
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
     transform: scale(1.1); /* Aumenta o tamanho em 1.1x */
 }
 
-.cabecalho .boas_vindas {
+#cabecalho .boas_vindas {
     font-family: var(--fonte-principal);
     color: #ffffff;
     position: relative;
@@ -41,22 +41,22 @@
     padding: 190px 0 300px 0;
 }
 
-.cabecalho h1 {
+#cabecalho h1 {
     font-size: 64px;
     font-weight: bold;
 }
 
-.cabecalho h2 {
+#cabecalho h2 {
     font-size: 24px;
     font-weight: 300;
 }
 
-.cabecalho h3 {
+#cabecalho h3 {
     font-size: 36px;
     font-weight: bold;
 }
 
-.cabecalho .botao_sobre_mim {
+#cabecalho .botao_sobre_mim {
     position: relative;
     background-color: transparent;
     border: solid 3px #ffffff;
@@ -74,7 +74,7 @@
     
 }
 
-.cabecalho .botao_sobre_mim::before {
+#cabecalho .botao_sobre_mim::before {
     content: '';
     position: absolute;
     transform: translateY(100%); /* Inicialmente fora da visão */
@@ -86,20 +86,20 @@
     transition: transform 0.3s ease; /* Transição mais suave e leve */
 }
 
-.cabecalho .botao_sobre_mim:hover::before {
+#cabecalho .botao_sobre_mim:hover::before {
     transform: translateY(0); /* Move o preenchimento para cobrir o botão */
 }
 
-.cabecalho .botao_sobre_mim:hover {
+#cabecalho .botao_sobre_mim:hover {
     color: #000000; /* Muda a cor do texto para preto ao passar o mouse */
     box-shadow: 8px 8px 16px rgba(255, 255, 255, 0.08);
 }
 
-.cabecalho .botao_sobre_mim img {
+#cabecalho .botao_sobre_mim img {
     transition: filter 0.3s ease; /* Transição suave para a alteração da cor */
 }
 
-.cabecalho .botao_sobre_mim:hover img {
+#cabecalho .botao_sobre_mim:hover img {
     content: url('../../../public/imagens/seta-baixo-preta-32px.png'); /* Altera a imagem da seta */
 }
 

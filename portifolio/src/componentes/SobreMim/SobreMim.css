@@ -1,27 +1,27 @@
-.sobre_mim{
+#sobre_mim{
     background-color: #EBEBEB;
-    padding: 40px 0 0 100px;
+    padding: 50px 0 0 100px;
 }
 
-.sobre_mim h2{
+#sobre_mim h2{
     font-family: var(--fonte-principal);
     font-size: 36px;
 }
 
-.sobre_mim img {
+#sobre_mim img {
     width: 120px;
     border-radius: 50%;
     margin: 25px 0;
 }
 
-.sobre_mim p {
+#sobre_mim p {
     font-family: var(--fonte-secundaria);
     font-size: 21px;
     width: 70vw;
     text-align: justify;
 }
 
-.sobre_mim div{
+#sobre_mim div{
     padding: 40px 0 150px 0;
     display: flex;
     gap: 45px;

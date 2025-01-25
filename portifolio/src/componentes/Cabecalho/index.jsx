@@ -1,11 +1,11 @@
 import './Cabecalho.css'
 
-const Cabecalho = () => {
+const Cabecalho = (props) => {
 
     return (
-        <header className='cabecalho'>
+        <header id='cabecalho'>
             <div className='cabecalho_botoes'>
-                <button>Sobre mim</button>
+                <button onClick={props.scrollSobreMim}>Sobre mim</button>
                 <button>Habilidades</button>
                 <button>Projetos</button>
                 <button>Certificados</button>
@@ -15,7 +15,7 @@ const Cabecalho = () => {
                 <h3>OLÁ, SEJA BEM VINDO!</h3>
                 <h1>Eu sou Felipe Sora</h1>
                 <h2>Engenheiro de Software | Desenvolvedor Web | Estudante de ADS</h2>
-                <button className='botao_sobre_mim'>SOBRE MIM <img src="/imagens/seta-baixo-branca-32px.png" alt="Seta para baixo" /></button>
+                <button className='botao_sobre_mim' onClick={props.scrollSobreMim}>SOBRE MIM <img src="/imagens/seta-baixo-branca-32px.png" alt="Seta para baixo" /></button>
             </div>
         </header>
     )
