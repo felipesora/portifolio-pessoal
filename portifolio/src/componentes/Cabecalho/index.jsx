@@ -9,6 +9,7 @@ const Cabecalho = () => {
                 <button>Habilidades</button>
                 <button>Projetos</button>
                 <button>Certificados</button>
+                <button>Fale comigo</button>
             </div>
             <div className='boas_vindas'>
                 <h3>OLÁ, SEJA BEM VINDO!</h3>
