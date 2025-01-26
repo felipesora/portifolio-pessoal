@@ -1,13 +1,14 @@
 .card_habilidade{
     background-color: #373A40;
     border: 3px solid #686D76;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 350px;
     padding: 25px 80px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card_habilidade h3{
@@ -15,4 +16,17 @@
     font-size: 32px;
     font-weight: bold;
     color: #ffffff;
+}
+
+.img_nivel_habilidade{
+    margin-top: 20px;
+}
+
+.card_habilidade p {
+    font-family: var(--fonte-principal);
+    color: #ffffff;
+    background-color: #131313;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
