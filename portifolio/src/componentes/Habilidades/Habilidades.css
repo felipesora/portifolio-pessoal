@@ -1,0 +1,17 @@
+#habilidades {
+    background-color: #ffffff;
+    padding: 50px 0 0 100px;
+}
+
+#habilidades h2 {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+}
+
+#habilidades p {
+    margin: 16px 0 100px 0;
+    font-family: var(--fonte-secundaria);
+    font-size: 21px;
+    width: 70vw;
+    text-align: justify;
+}
