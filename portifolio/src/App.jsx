@@ -18,6 +18,7 @@ function App() {
       <Cabecalho 
       scrollSobreMim={() => scrollToSection('sobre_mim')} 
       scrollHabilidades={() => scrollToSection('habilidades')}
+      scrollProjetos={() => scrollToSection('projetos')}
       />
       <main>
         <SobreMim />

@@ -1,14 +1,14 @@
 import './CardProjeto.css'
 
-const CardProjeto = () => {
+const CardProjeto = (props) => {
     return(
         <div className='card_projeto'>
-            <img src="../../../public/imagens/projeto-alura-plus.png" alt="" />
-            <h2>SmartEnergy</h2>
-            <p>Este projeto é uma aplicação web desenvolvida com React e Node.js.</p>
+            <img src={props.imagem} alt={props.nome} />
+            <h2>{props.nome}</h2>
+            <p>{props.texto}</p>
             <ul>
-                <a href="#">Repositório Github</a>
-                <a href="#">Link do projeto</a>
+                <a href={props.linkGithub} target='_blank'>Repositório Github</a>
+                <a href={props.linkProjeto} target='_blank'>Link do projeto</a>
             </ul>
         </div>
     )
