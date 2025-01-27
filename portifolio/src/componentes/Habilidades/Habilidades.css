@@ -52,10 +52,11 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #1abc9c;
+    background-color: #373A40;
     color: #ffffff;
     border: none;
     border-radius: 50%;
+    font-size: 20px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -63,19 +64,25 @@
     align-items: center;
     cursor: pointer;
     z-index: 10;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-prev img,
+  .btn-next img {
+    width: 2vw;
   }
   
   .btn-prev {
-    left: -20px;
+    left: 50px;
   }
   
   .btn-next {
-    right: -20px;
+    right: 50px;
   }
   
   .btn-prev:hover,
   .btn-next:hover {
-    background-color: #16a085;
+    background-color: #686D76;
   }
   
   /* Indicadores */
@@ -95,6 +102,6 @@
   }
   
   .active-indicator {
-    background-color: #1abc9c;
+    background-color: #373A40;
   }
   

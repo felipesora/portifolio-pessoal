@@ -57,7 +57,7 @@ const Habilidades = () => {
             <p className='textos'>Nesta seção, apresento as principais tecnologias e ferramentas com as quais trabalho. Cada habilidade é exibida com meu nível de experiência, refletindo meu conhecimento e prática em cada uma delas. Desde linguagens de programação até frameworks modernos, estou sempre aprendendo e me atualizando para entregar as melhores soluções.</p>
             <div className='carousel'>
                 <button className='btn-prev' onClick={prevSlide}>
-                    {"<"}
+                {"<"}
                 </button>
 
                 <div className="carousel-content">

@@ -6,7 +6,7 @@ const Cabecalho = (props) => {
         <header id='cabecalho'>
             <div className='cabecalho_botoes'>
                 <button onClick={props.scrollSobreMim}>Sobre mim</button>
-                <button>Habilidades</button>
+                <button onClick={props.scrollHabilidades}>Habilidades</button>
                 <button>Projetos</button>
                 <button>Certificados</button>
                 <button>Fale comigo</button>
