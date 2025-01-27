@@ -1,6 +1,7 @@
 import './App.css'
 import Cabecalho from './componentes/Cabecalho'
 import Habilidades from './componentes/Habilidades';
+import Projetos from './componentes/Projetos';
 import SobreMim from './componentes/SobreMim'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <main>
         <SobreMim />
         <Habilidades />
+        <Projetos />
       </main>
 
     </>

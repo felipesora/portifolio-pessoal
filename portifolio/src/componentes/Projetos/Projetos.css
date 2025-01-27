@@ -1,0 +1,16 @@
+#projetos {
+    background-color: #EBEBEB;
+    padding: 50px 0 125px 100px;
+}
+
+#projetos h1{
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+}
+
+#projetos .texto_projetos {
+    font-family: var(--fonte-secundaria);
+    font-size: 21px;
+    width: 70vw;
+    text-align: justify;
+}

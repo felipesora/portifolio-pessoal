@@ -1,0 +1,17 @@
+.card_projeto{
+    background-color: #9AA6B2;
+    font-family: var(--fonte-principal);
+}
+
+.card_projeto img{
+    width: 30vw;
+}
+
+.card_projeto h2{
+    font-size: 24px;
+}
+
+.card_projeto p {
+    font-size: 16px;
+    width: 30vw;
+}
