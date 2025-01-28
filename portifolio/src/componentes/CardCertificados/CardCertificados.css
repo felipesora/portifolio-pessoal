@@ -1,5 +1,6 @@
 .card_certificado{
     background-color: #EBEBEB;
+    border: 1px solid #dbdbdb;
     display: flex;
     flex-direction: column;
     align-items: center;

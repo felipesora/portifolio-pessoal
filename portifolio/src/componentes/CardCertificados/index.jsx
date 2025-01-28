@@ -3,9 +3,9 @@ import './CardCertificados.css'
 const CardCertificados = (props) => {
     return(
         <div className='card_certificado'>
-            <h2>Curso de Javascript</h2>
-            <p>Emitido por Alura</p>
-            <a href="#">Ver Certificado</a>
+            <h2>{props.nome}</h2>
+            <p>Emitido por {props.emitido}</p>
+            <a href={props.link} target='_blank'>Ver Certificado</a>
         </div>
     )
 }
