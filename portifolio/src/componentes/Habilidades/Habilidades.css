@@ -1,111 +1,71 @@
+/* Geral */
 #habilidades {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.container_habilidades{
+.container_habilidades {
   padding: 50px 0 0 100px;
 }
 
 #habilidades h2 {
-    font-family: var(--fonte-principal);
-    font-size: 36px;
+  font-family: var(--fonte-principal);
+  font-size: 36px;
 }
 
 #habilidades .textos {
-    margin: 16px 0 100px 0;
-    font-family: var(--fonte-secundaria);
-    font-size: 21px;
-    width: 70vw;
-    text-align: justify;
+  margin: 16px 0 100px 0;
+  font-family: var(--fonte-secundaria);
+  font-size: 21px;
+  width: 70vw;
+  text-align: justify;
 }
 
-/* Estilo geral do carrossel */
+/* Carrossel */
 .carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .carousel-content {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  .carousel-item {
-    flex: 0 0 100%; /* Cada item ocupa 100% da largura do carrossel */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  /* Botões de navegação */
-  .btn-prev,
-  .btn-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #373A40;
-    color: #ffffff;
-    border: none;
-    border-radius: 50%;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 10;
-    transition: background-color 0.3s ease;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40%;
+  margin: auto;
+  overflow: hidden;
+  cursor: grab;
+}
 
-  .btn-prev img,
-  .btn-next img {
-    width: 2vw;
-  }
-  
-  .btn-prev {
-    left: 50px;
-  }
-  
-  .btn-next {
-    right: 50px;
-  }
-  
-  .btn-prev:hover,
-  .btn-next:hover {
-    background-color: #686D76;
-  }
-  
-  /* Indicadores */
-  .carousel-indicators {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 10px;
-    padding-bottom: 125px;
-  }
-  
-  .indicator {
-    width: 10px;
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .active-indicator {
-    background-color: #373A40;
-  }
-  
+.carousel:active {
+  cursor: grabbing;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 100%; /* Cada item ocupa 100% da largura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Indicadores */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  padding-bottom: 125px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active-indicator {
+  background-color: #373A40;
+}
