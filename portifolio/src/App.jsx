@@ -1,4 +1,5 @@
 import './App.css'
+import BotaoParaCima from './componentes/BotaoParaCima';
 import Cabecalho from './componentes/Cabecalho'
 import Certificados from './componentes/Certificados';
 import Contato from './componentes/Contato';
@@ -32,6 +33,7 @@ function App() {
         <Certificados />
         <Contato />
         <Rodape />
+        <BotaoParaCima />
       </main>
 
     </>
