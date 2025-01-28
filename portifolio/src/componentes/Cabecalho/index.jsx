@@ -8,7 +8,7 @@ const Cabecalho = (props) => {
                 <button onClick={props.scrollSobreMim}>Sobre mim</button>
                 <button onClick={props.scrollHabilidades}>Habilidades</button>
                 <button onClick={props.scrollProjetos}>Projetos</button>
-                <button>Certificados</button>
+                <button onClick={props.scrollCertificados}>Certificados</button>
                 <button>Fale comigo</button>
             </div>
             <div className='boas_vindas'>

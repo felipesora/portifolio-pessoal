@@ -1,5 +1,6 @@
 import './App.css'
 import Cabecalho from './componentes/Cabecalho'
+import Certificados from './componentes/Certificados';
 import Habilidades from './componentes/Habilidades';
 import Projetos from './componentes/Projetos';
 import SobreMim from './componentes/SobreMim'
@@ -19,11 +20,13 @@ function App() {
       scrollSobreMim={() => scrollToSection('sobre_mim')} 
       scrollHabilidades={() => scrollToSection('habilidades')}
       scrollProjetos={() => scrollToSection('projetos')}
+      scrollCertificados={() => scrollToSection('certificados')}
       />
       <main>
         <SobreMim />
         <Habilidades />
         <Projetos />
+        <Certificados />
       </main>
 
     </>

@@ -1,0 +1,24 @@
+#certificados{
+    background-color: #ffffff;
+    padding: 50px 0 125px 100px;
+}
+
+#certificados h1{
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+}
+
+#certificados .texto_certificados {
+    font-family: var(--fonte-secundaria);
+    font-size: 21px;
+    width: 70vw;
+    text-align: justify;
+}
+
+.div_certificados{
+    margin-top: 76px;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+}
