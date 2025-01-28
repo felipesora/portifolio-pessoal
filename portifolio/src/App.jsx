@@ -4,6 +4,7 @@ import Certificados from './componentes/Certificados';
 import Contato from './componentes/Contato';
 import Habilidades from './componentes/Habilidades';
 import Projetos from './componentes/Projetos';
+import Rodape from './componentes/Rodape';
 import SobreMim from './componentes/SobreMim'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Projetos />
         <Certificados />
         <Contato />
+        <Rodape />
       </main>
 
     </>
