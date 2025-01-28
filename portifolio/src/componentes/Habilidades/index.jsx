@@ -53,8 +53,10 @@ const Habilidades = () => {
 
     return (
         <div id='habilidades'>
-            <h2>HABILIDADES</h2>
-            <p className='textos'>Nesta seção, apresento as principais tecnologias e ferramentas com as quais trabalho. Cada habilidade é exibida com meu nível de experiência, refletindo meu conhecimento e prática em cada uma delas. Desde linguagens de programação até frameworks modernos, estou sempre aprendendo e me atualizando para entregar as melhores soluções.</p>
+            <div className='container_habilidades'>
+                <h2>HABILIDADES</h2>
+                <p className='textos'>Nesta seção, apresento as principais tecnologias e ferramentas com as quais trabalho. Cada habilidade é exibida com meu nível de experiência, refletindo meu conhecimento e prática em cada uma delas. Desde linguagens de programação até frameworks modernos, estou sempre aprendendo e me atualizando para entregar as melhores soluções.</p>
+            </div>
             <div className='carousel'>
                 <button className='btn-prev' onClick={prevSlide}>
                 {"<"}

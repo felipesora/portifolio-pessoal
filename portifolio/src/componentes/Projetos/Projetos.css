@@ -1,6 +1,9 @@
 #projetos {
     background-color: #EBEBEB;
-    padding: 50px 0 125px 100px;
+}
+
+.container_projetos{
+    padding: 50px 0 0 100px;
 }
 
 #projetos h1{
@@ -13,6 +16,10 @@
     font-size: 21px;
     width: 70vw;
     text-align: justify;
+}
+
+.container_div_projetos{
+    padding-bottom: 125px;
 }
 
 .div_projetos{

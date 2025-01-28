@@ -3,12 +3,14 @@ import "./Contato.css";
 const Contato = () => {
     return (
         <div id="contato">
-            <h1>CONTATO</h1>
-            <p>
-                Tem interesse em conversar, colaborar ou apenas dizer um oi? Estou sempre
-                aberto a novas oportunidades e ideias. Você pode me encontrar pelas redes
-                abaixo:
-            </p>
+            <div className="container_contato">
+                <h1>CONTATO</h1>
+                <p>
+                    Tem interesse em conversar, colaborar ou apenas dizer um oi? Estou sempre
+                    aberto a novas oportunidades e ideias. Você pode me encontrar pelas redes
+                    abaixo:
+                </p>
+            </div>
             <ul>
                 <li>
                     <a href="https://github.com/felipesora" target="_blank" className="icone_github">

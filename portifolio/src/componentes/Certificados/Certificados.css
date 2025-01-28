@@ -1,6 +1,9 @@
 #certificados{
     background-color: #ffffff;
-    padding: 50px 0 125px 100px;
+}
+
+.container_certificados{
+    padding: 50px 0 0 100px;
 }
 
 #certificados h1{
@@ -15,10 +18,15 @@
     text-align: justify;
 }
 
+.container_div_certificados{
+    padding-bottom: 125px;
+}
+
 .div_certificados{
     margin-top: 76px;
     display: flex;
     gap: 45px;
     align-items: center;
     justify-content: center;
+
 }

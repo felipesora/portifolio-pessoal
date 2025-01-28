@@ -1,6 +1,9 @@
 #habilidades {
     background-color: #ffffff;
-    padding: 50px 0 180px 100px;
+}
+
+.container_habilidades{
+  padding: 50px 0 0 100px;
 }
 
 #habilidades h2 {
@@ -91,6 +94,7 @@
     justify-content: center;
     margin-top: 20px;
     gap: 10px;
+    padding-bottom: 125px;
   }
   
   .indicator {

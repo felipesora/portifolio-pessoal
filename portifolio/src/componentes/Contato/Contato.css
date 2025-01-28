@@ -1,6 +1,9 @@
 #contato{
     background-color: #EBEBEB;
-    padding: 50px 0 125px 100px;
+}
+
+.container_contato{
+    padding: 50px 0 0 100px;
 }
 
 #contato h1{
@@ -22,6 +25,7 @@
     align-items: center;
     gap: 50px;
     margin-top: 50px;
+    padding-bottom: 125px;
 }
 
 #contato ul li{
