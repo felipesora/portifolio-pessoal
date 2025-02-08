@@ -46,6 +46,19 @@
     font-weight: bold;
 }
 
+.lista_palavras{
+    display: flex;
+    gap: 5px;
+}
+
+.titulo::after {
+    content: " |"; /* Adiciona o separador */
+}
+
+.titulo:last-child::after {
+    content: ""; /* Remove o separador do último item */
+}
+
 #cabecalho h2 {
     font-size: 24px;
     font-weight: 300;
@@ -103,3 +116,117 @@
     content: url('../../../public/imagens/seta-baixo-preta-32px.png'); /* Altera a imagem da seta */
 }
 
+@media (max-width: 1140px){
+    #cabecalho h1{
+        font-size: 56px;
+    }
+    #cabecalho h2{
+        font-size: 22px;
+    }
+    #cabecalho h3{
+        font-size: 28px;
+    }
+    #cabecalho .boas_vindas{
+        padding: 150px 0 250px 0;
+    }
+    #cabecalho .botao_sobre_mim{
+        font-size: 19px;
+    }
+    #cabecalho .botao_sobre_mim img{
+        width: 3vw;
+    }
+}
+
+@media (max-width: 890px){
+    .cabecalho_botoes button{
+        font-size: 14px;
+    }
+    #cabecalho h1{
+        font-size: 45px;
+    }
+    #cabecalho h2{
+        font-size: 20px;
+    }
+    #cabecalho h3{
+        font-size: 24px;
+    }
+    #cabecalho .boas_vindas{
+        padding: 120px 0 200px 0;
+    }
+    #cabecalho .botao_sobre_mim{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px){
+    #cabecalho{
+        background-image: none;
+        background-color: #111111;
+    }
+    #cabecalho h2{
+        font-size: 18px;
+    }
+    #cabecalho .boas_vindas{
+        padding: 100px 0 180px 0;
+    }
+}
+
+@media (max-width: 600px){
+    #cabecalho h2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 530px){
+    .cabecalho_botoes{
+        padding: 20px 0 0 10px;
+    }
+    .cabecalho_botoes button{
+        font-size: 12px;
+    }
+    #cabecalho h1{
+        font-size: 35px;
+    }
+    #cabecalho h2{
+        font-size: 14px;
+    }
+    #cabecalho h3{
+        font-size: 22px;
+    }
+    #cabecalho .botao_sobre_mim{
+        font-size: 14px;
+    }
+    #cabecalho .botao_sobre_mim img{
+        width: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .lista_palavras {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo::after {
+        content: ""; /* Remove o separador "|" */
+    }
+    #cabecalho .boas_vindas{
+        padding: 100px 0 150px 0;
+    }
+}
+
+@media (max-width: 450px){
+    .cabecalho_botoes{
+        gap: 15px;
+    }
+
+    .cabecalho_botoes button{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 390px){
+    .cabecalho_botoes{
+        gap: 10px;
+    }
+}
