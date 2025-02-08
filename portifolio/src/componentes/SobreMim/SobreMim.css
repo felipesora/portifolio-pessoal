@@ -85,3 +85,88 @@
     border-color: #000000; /* Borda preta no hover */
 }
 
+@media (max-width: 1130px){
+    #sobre_mim img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 910px){
+    #sobre_mim img{
+        width: 90px;
+    }
+    #sobre_mim p{
+        font-size: 18px;
+    }
+    #sobre_mim{
+        padding: 50px 0 0 60px;
+    }
+}
+
+@media (max-width: 830px){
+    #sobre_mim{
+        padding: 50px 0 0 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sobre_mim h2{
+        font-size: 32px;
+    }
+    #sobre_mim img{
+        width: 80px;
+    }
+    #sobre_mim p{
+        width: 80vw;
+    }
+    .btn_fale_comigo{
+        font-size: 18px;
+    }
+    .btn_baixar_cv{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 560px){
+    #sobre_mim p{
+        font-size: 17px;
+    }
+    .btn_fale_comigo{
+        font-size: 17px;
+    }
+    .btn_baixar_cv{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px){
+    #sobre_mim div{
+        padding: 40px 0 120px 0;
+        gap: 35px;
+    }
+    .btn_fale_comigo{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .btn_baixar_cv{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 390px){
+    #sobre_mim h2{
+        font-size: 28px;
+    }
+    #sobre_mim img{
+        width: 70px;
+    }
+    #sobre_mim p{
+        font-size: 16px;
+    }
+    #sobre_mim div{
+        padding: 40px 0 100px 0;
+        gap: 25px;
+    }
+}
