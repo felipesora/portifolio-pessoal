@@ -167,7 +167,7 @@
         font-size: 18px;
     }
     #cabecalho .boas_vindas{
-        padding: 100px 0 180px 0;
+        padding: 150px 0 200px 0;
     }
 }
 
@@ -211,7 +211,7 @@
         content: ""; /* Remove o separador "|" */
     }
     #cabecalho .boas_vindas{
-        padding: 100px 0 150px 0;
+        padding: 170px 0 200px 0;
     }
 }
 

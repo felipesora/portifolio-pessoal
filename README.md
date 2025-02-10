@@ -16,4 +16,8 @@ Este é o meu portfólio desenvolvido com **React.js + Vite**, onde apresento mi
 - Vite
 - HTML, CSS, JavaScript
 
+## 🔗 Link do Projeto
+
+[Acesse o portfólio aqui](https://portifolio-pessoal-phi.vercel.app/)
+
 Sinta-se à vontade para explorar o repositório e deixar seu feedback! 😃
