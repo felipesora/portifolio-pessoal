@@ -12,6 +12,7 @@
 }
 
 #contato p{
+    margin-top: 16px;
     font-family: var(--fonte-secundaria);
     font-size: 21px;
     width: 70vw;
@@ -58,4 +59,80 @@
   
 #contato ul li a img {
     width: 4vw;
+}
+
+@media (max-width: 1360px){
+    #contato ul li a img {
+        width: 5vw;
+    }
+}
+
+@media (max-width: 1190px){
+    #contato ul li a img {
+        width: 6vw;
+    }
+}
+
+@media (max-width: 980px){
+    #contato ul li a img {
+        width: 7vw;
+    }
+}
+
+@media (max-width: 910px){
+    #contato p{
+        font-size: 18px;
+    }
+    .container_contato{
+        padding: 50px 0 0 60px;
+    }
+}
+
+@media (max-width: 830px){
+    .container_contato{
+        padding: 50px 0 0 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #contato h1{
+        font-size: 32px;
+    }
+    #contato p{
+        width: 80vw;
+    }
+    #contato ul li a img {
+        width: 8vw;
+    }
+}
+
+@media (max-width: 650px){
+    #contato ul li a img {
+        width: 9vw;
+    }
+}
+
+@media (max-width: 560px){
+    #contato p{
+        font-size: 17px;
+    }
+    #contato ul li a img {
+        width: 11vw;
+    }
+}
+
+@media (max-width: 460px){
+    #contato ul li a img {
+        width: 13vw;
+    }
+}
+
+@media (max-width: 390px){
+    #contato h1{
+        font-size: 28px;
+    }
+    #contato p{
+        font-size: 16px;
+    }
 }
