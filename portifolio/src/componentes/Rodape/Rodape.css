@@ -10,3 +10,18 @@ footer p {
     font-size: 16px;
     font-weight: 300;
 }
+
+@media (max-width: 970px){
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 620px){
+    footer{
+        padding: 50px 0;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
