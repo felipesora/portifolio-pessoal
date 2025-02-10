@@ -23,7 +23,7 @@ const Certificados = () => {
                     emitido="Alura"
                     link="https://drive.google.com/file/d/12UN1f4FEZ7KfeX7Bk_lizvn3IhURnMyA/view?usp=drive_link"/>
                 </div>
-                <div className='div_certificados'>
+                <div className='div_certificados div_certificados_2'>
                     <CardCertificados
                     nome="Curso de Python"
                     emitido="Alura"

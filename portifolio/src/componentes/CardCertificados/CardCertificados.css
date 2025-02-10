@@ -44,3 +44,10 @@
     background-color: #000000; 
     border-color: #000000;
 }
+
+@media (max-width: 560px){
+    .card_certificado{
+        width: 220px;
+        padding: 30px 20px;
+    }
+}
