@@ -69,3 +69,60 @@
 .active-indicator {
   background-color: #373A40;
 }
+
+@media (max-width: 1110px){
+  .carousel {
+    width: 60%;
+  }
+}
+
+@media (max-width: 910px){
+  .container_habilidades {
+    padding: 50px 0 0 60px;
+  }
+  #habilidades .textos{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 830px){
+  .container_habilidades {
+    padding: 50px 0 0 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #habilidades .textos{
+    width: 80vw;
+    margin: 16px 0 70px 0;
+  }
+  #habilidades h2{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 740px){
+  .carousel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px){
+  .carousel {
+    width: 100%;
+  }
+  #habilidades .textos {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 390px){
+  #habilidades h2{
+    font-size: 28px;
+  }
+  #habilidades .textos{
+    margin: 16px 0 50px 0;
+    font-size: 16px;
+  }
+}

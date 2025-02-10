@@ -18,15 +18,147 @@
     color: #ffffff;
 }
 
+.icone_habildade{
+    width: 5vw;
+}
+
 .img_nivel_habilidade{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .card_habilidade p {
     font-family: var(--fonte-principal);
     color: #ffffff;
     background-color: #131313;
-    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
+}
+
+@media (max-width: 1510px){
+    .icone_habildade{
+        width: 6vw;
+    }
+}
+
+@media (max-width: 1310px){
+    .card_habilidade{
+        width: 300px;
+        padding: 25px 60px;
+    }
+}
+
+@media (max-width: 1120px){
+    .icone_habildade{
+        width: 7vw;
+    }
+}
+
+@media (max-width: 970px){
+    .icone_habildade{
+        width: 9vw;
+    }
+}
+
+@media (max-width: 910px){
+    .card_habilidade h3{
+        font-size: 28px;
+    }
+    .icone_habildade{
+        width: 9vw;
+    }
+    .img_nivel_habilidade{
+        width: 30vw;
+    }
+    .card_habilidade p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 830px){
+    .card_habilidade{
+        width: 350px;
+        padding: 25px 30px;
+    }
+    .img_nivel_habilidade{
+        width: 35vw;
+    }
+}
+
+@media (max-width: 730px){
+    .img_nivel_habilidade{
+        width: 38vw;
+    }
+}
+
+@media (max-width: 680px){
+    .img_nivel_habilidade{
+        width: 40vw;
+    }
+    .card_habilidade h3{
+        font-size: 27px;
+    }
+    .icone_habildade{
+        width: 11vw;
+    }
+    .card_habilidade p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px){
+    .img_nivel_habilidade{
+        width: 48vw;
+    }
+    .card_habilidade h3{
+        font-size: 27px;
+    }
+    .icone_habildade{
+        width: 11vw;
+    }
+    .card_habilidade p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 560px){
+    .card_habilidade{
+        width: 300px;
+    }
+    .img_nivel_habilidade{
+        width: 55vw;
+    }
+    .card_habilidade h3{
+        font-size: 27px;
+    }
+    .icone_habildade{
+        width: 13vw;
+    }
+    .card_habilidade p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px){
+    .card_habilidade{
+        width: 270px;
+    }
+    .img_nivel_habilidade{
+        width: 60vw;
+    }
+    .icone_habildade{
+        width: 14vw;
+    }
+}
+
+@media (max-width: 390px){
+    .card_habilidade{
+        width: 250px;
+    }
+    .icone_habildade{
+        width: 16vw;
+    }
+    .card_habilidade h3{
+        font-size: 25px;
+    }
 }
